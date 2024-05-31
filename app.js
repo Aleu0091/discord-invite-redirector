@@ -3,10 +3,7 @@ const bodyParser = require('body-parser');
 const sqlite3 = require('sqlite3').verbose();
 const axios = require('axios');
 const querystring = require('querystring');
-const dotenv = require('dotenv');
-
-// Load environment variables from .env file
-dotenv.config();
+const dotenv = require('dotenv').config();
 
 const app = express();
 const port = 3000;
