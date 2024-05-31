@@ -16,7 +16,7 @@ This application allows users to create custom URLs that redirect to a specific 
 
 2. Install dependencies:
     ```sh
-    npm install
+    pnpm install
     ```
 
 3. Create a `.env` file in the root directory and add your Discord application's credentials:
