@@ -16,11 +16,23 @@ This application allows users to create custom URLs that redirect to a specific 
     ```
 
 2. Install the required packages and dependencies:
+
+    npm     
     ```sh
     npm install express sqlite3 body-parser axios dotenv
     ```
+    
+    pnpm
+    ```sh
+    pmpm add express sqlite3 body-parser axios dotenv
+    ```
+    
+    yarn
+    ```sh
+    yarn add express sqlite3 body-parser axios dotenv
+    ```
 
-3. Create a `.env` file in the root directory and add your Discord application's credentials:
+4. Create a `.env` file in the root directory and add your Discord application's credentials:
     ```env
     CLIENT_ID=your_discord_client_id
     CLIENT_SECRET=your_discord_client_secret
@@ -28,7 +40,7 @@ This application allows users to create custom URLs that redirect to a specific 
     REDIRECT_URI=http://localhost:3000/callback
     ```
 
-4. Start the server:
+5. Start the server:
     ```sh
     node app.js
     ```
