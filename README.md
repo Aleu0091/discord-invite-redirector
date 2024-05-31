@@ -6,21 +6,22 @@ This application allows users to create custom URLs that redirect to a specific 
 
 - Node.js
 - SQLite
+
 ## Installation
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/Aleu0091/discord-invite-redirector.git
+    git clone https://github.com/your-repo/discord-invite-redirector.git
     cd discord-invite-redirector
     ```
 
-2. Install dependencies:
+2. Install the required packages and dependencies:
     ```sh
-    pnpm install
+    npm install express sqlite3 body-parser axios dotenv
     ```
 
 3. Create a `.env` file in the root directory and add your Discord application's credentials:
-    ```
+    ```env
     CLIENT_ID=your_discord_client_id
     CLIENT_SECRET=your_discord_client_secret
     BOT_TOKEN=your_discord_bot_token
