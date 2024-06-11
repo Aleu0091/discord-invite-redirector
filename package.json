@@ -1,0 +1,33 @@
+{
+  "name": "discord-invite-redirector",
+  "version": "1.0.0",
+  "description": "This application allows users to create custom URLs that redirect to a specific Discord invite link. It uses Discord OAuth2 to authenticate users and automatically join them to a server using a bot.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "keywords": [],
+  "author": "Aleu0091",
+  "contributors": [
+    {
+      "name": "sOy0Ka",
+      "email": "me@yoru.icu"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.13.0",
+    "tsc": "^2.0.4",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}
