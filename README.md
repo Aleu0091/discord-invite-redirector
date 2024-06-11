@@ -19,17 +19,17 @@ This application allows users to create custom URLs that redirect to a specific 
 
     npm     
     ```sh
-    npm install express sqlite3 body-parser axios dotenv
+    npm install express sqlite3 body-parser axios querystring dotenv express-session
     ```
     
     pnpm
     ```sh
-    pmpm add express sqlite3 body-parser axios dotenv
+    pmpm add express sqlite3 body-parser axios querystring dotenv express-session
     ```
     
     yarn
     ```sh
-    yarn add express sqlite3 body-parser axios dotenv
+    yarn add express sqlite3 body-parser axios querystring dotenv express-session
     ```
 
 4. Create a `.env` file in the root directory and add your Discord application's credentials:
