@@ -24,7 +24,7 @@ This application allows users to create custom URLs that redirect to a specific 
     
     pnpm
     ```sh
-    pmpm add express sqlite3 body-parser axios querystring dotenv express-session
+    pnpm add express sqlite3 body-parser axios querystring dotenv express-session
     ```
     
     yarn
