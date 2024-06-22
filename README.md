@@ -11,7 +11,7 @@ This application allows users to create custom URLs that redirect to a specific 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-repo/discord-invite-redirector.git
+    git clone https://github.com/aleu0091/discord-invite-redirector.git
     cd discord-invite-redirector
     ```
 
